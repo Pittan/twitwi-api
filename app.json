@@ -1,0 +1,24 @@
+{
+  "name": "TwiTwi-API",
+  "description": "API for TwiTwi.",
+  "keywords": ["Twitter"],
+  "repository": "https://github.com/Pittan/twitwi-api",
+  "env": {
+    "CONSUMER_KEY": {
+      "description": "Consumer key for twitter app.",
+      "value": ""
+    },
+    "CONSUMER_SECRET": {
+      "description": "Consumer secret for twitter app.",
+      "value": ""
+    },
+    "ACCESS_TOKEN_KEY": {
+      "description": "Access token for your twitter app.",
+      "value": ""
+    },
+    "ACCESS_TOKEN_SECRET": {
+      "description": "Access token secret for your twitter app.",
+      "value": ""
+    }
+  }
+}
