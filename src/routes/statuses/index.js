@@ -21,7 +21,7 @@ module.exports = function(receiveFromAppJs){
  * @param {string} ids TweetIDs (comma separated) 
  */
 function lookup (client, ids) {
-  const params = {id: ids}
+  const params = {id: ids, tweet_mode: 'extended'}
   return new Promise((resolve, reject) => {
     client.get('statuses/lookup', params, (error, tweets, response) => {      
       if (!error) {  
